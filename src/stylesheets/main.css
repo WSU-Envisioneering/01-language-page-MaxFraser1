@@ -1,7 +1,27 @@
-body{
-    background-color: white;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-
-
+*{padding: 0%;
+margin: 0%;
 }
+body{
+    background-color: #1C2333;
+    color: #666D7E;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    background-color: #11192C;
+    padding: 30px;
+}
+nav{
+    float: left;
+    background-color: #2F3440 ;
+    padding: 30px;
+    color: #2F3440;
+}
+a{
+    text-decoration: none;
+    color: #11192C;
+}
+a:hover{
+    color: white;
+}
+
