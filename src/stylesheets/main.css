@@ -6,6 +6,11 @@ body{
     color: #666D7E;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+main{
+    margin: 1rem 15rem;
+}
+
 h1{
     text-align: center;
     background-color: #11192C;
@@ -16,12 +21,21 @@ nav{
     background-color: #2F3440 ;
     padding: 30px;
     color: #2F3440;
+    height: 49rem;
 }
+
 a{
     text-decoration: none;
-    color: #11192C;
+    color: #8d9cc0;
 }
+
 a:hover{
     color: white;
+    text-decoration: underline;
+}
+
+table, th, td{
+    border: 3px #11192C solid;
+    border-collapse: collapse;
 }
 
